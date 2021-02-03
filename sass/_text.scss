@@ -1,0 +1,144 @@
+.custom-nav-link{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color:$paragraph1_color;
+}
+.btn1-text{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: $white_color;
+}
+.btn2-text{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 78px;
+    color: $white_color;
+}
+.paragraph1-text{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: $paragraph1_color;
+}
+.paragraph2-text{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: $paragraph1_color;
+}
+.interior-para1{
+    font-family: $poppins_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color:$paragraph1_color;
+}
+.header1-text{
+    font-family: $poppins_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 78px;
+    color: $header1_color;
+}
+.header2-text{
+    font-family: $poppins_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    color: $header1_color;
+}
+.header3-text{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: $header1_color;
+}
+.header4-text{
+    font-family: $poppins_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.04em;
+    color: $header1_color;
+}
+.header5-text{
+    font-family: $poppins_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: $header1_color;
+}
+.completed-h2{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: $header1_color;
+}
+.blog-h2{
+    font-family: $opensans_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: $header1_color;
+}
+@media (max-width: 1199.98px) { 
+    .header1-text{ 
+        font-size: 52px;
+        line-height: 58px;
+    }
+}
+@media (max-width: 991.98px) { 
+    .header1-text{ 
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .paragraph1-text {
+        font-size: 14px;
+    }
+    .btn2-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .header2-text {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .completed-h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 575.98px) { 
+    .header1-text{ 
+        font-size: 28px;
+    }
+    .header2-text {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .header3-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+ }
